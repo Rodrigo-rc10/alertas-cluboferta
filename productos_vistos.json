@@ -1,0 +1,32 @@
+{
+  "productos": {
+    "https://cluboferta.cl/producto/bicicleta-spinning-sf-b1423-con-monitor-lcd-volante-inercia-18kg/": {
+      "nombre": "REACONDICIONADO | Bicicleta Spinning Sf-B1423 Con Monitor Vola...",
+      "precio": "$67.000",
+      "precio_original": "$189.990",
+      "visto_por_primera_vez": "2026-11-02T03:30:56+00:00",
+      "activo": true
+    },
+    "https://cluboferta.cl/producto/silla-comedor-charlton-tela/": {
+      "nombre": "REACONDICIONADO | Silla Comedor Charlton Tela",
+      "precio": "$5.000",
+      "precio_original": "$39.990",
+      "visto_por_primera_vez": "2026-11-02T03:30:56+00:00",
+      "activo": true
+    },
+    "https://cluboferta.cl/producto/silla-de-bar-boston/": {
+      "nombre": "REACONDICIONADO | Silla de Bar Boston",
+      "precio": "$5.000",
+      "precio_original": "$29.990",
+      "visto_por_primera_vez": "2026-11-02T03:30:56+00:00",
+      "activo": true
+    },
+    "https://cluboferta.cl/producto/silla-escritorio-autonomous-full-2/": {
+      "nombre": "REACONDICIONADO | Silla Escritorio Autonomous Full",
+      "precio": "$20.000",
+      "precio_original": "$79.990",
+      "visto_por_primera_vez": "2026-11-02T03:30:56+00:00",
+      "activo": true
+    }
+  }
+}

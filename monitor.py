@@ -2,7 +2,7 @@
 """
 Bot de alertas para ClubOferta – Reacondicionados.
 
-Revisa https://cluboferta.cl/categoria-reacondicionados/ y avisa por Telegram
+Revisa las páginas de reacondicionados de ClubOferta y avisa por Telegram
 cuando aparece un producto nuevo (o cuando vuelve uno que había desaparecido).
 
 Uso:
@@ -29,7 +29,14 @@ from urllib.parse import urljoin
 import requests
 from bs4 import BeautifulSoup
 
-URL = os.environ.get("CATEGORY_URL", "https://cluboferta.cl/categoria-reacondicionados/")
+# Páginas a vigilar. Para agregar o quitar una, edita esta lista.
+URLS = [
+    "https://cluboferta.cl/categoria-reacondicionados/",
+    "https://cluboferta.cl/coleccion/reacondicionados-para-hogar/",
+    "https://cluboferta.cl/coleccion/reacondicionados-para-deporte/",
+    "https://cluboferta.cl/coleccion/reacondicionados-para-otros/",
+]
+URL_PRINCIPAL = URLS[0]
 STATE_FILE = Path(os.environ.get("STATE_FILE", "productos_vistos.json"))
 TELEGRAM_TOKEN = os.environ.get("TELEGRAM_TOKEN", "").strip()
 TELEGRAM_CHAT_ID = os.environ.get("TELEGRAM_CHAT_ID", "").strip()
@@ -112,8 +119,8 @@ def parsear_productos(page_html, base_url):
     return productos, siguiente_url
 
 
-def obtener_todos_los_productos():
-    productos, url, paginas = {}, URL, 0
+def obtener_todos_los_productos(url_inicial):
+    productos, url, paginas = {}, url_inicial, 0
     while url and paginas < MAX_PAGES:
         page_html = fetch(url)
         if page_html is None:
@@ -180,48 +187,89 @@ def guardar_estado(estado):
 
 # ---------------------------------------------------------------- lógica ----
 
+def nombre_fuente(url):
+    return url.rstrip("/").split("/")[-1].replace("-", " ").capitalize()
+
+
 def revisar():
     ahora = datetime.now(timezone.utc).isoformat(timespec="seconds")
-    print(f"[{ahora}] Revisando {URL}")
-    actuales = obtener_todos_los_productos()
-    print(f"  {len(actuales)} productos en la página")
+    print(f"[{ahora}] Revisando {len(URLS)} páginas")
+
+    # 1) Descargar cada página (si una falla, se ignora solo esa)
+    resultados, cargadas = {}, []   # cargadas = páginas que respondieron (aunque estén vacías)
+    for fuente in URLS:
+        try:
+            prods = obtener_todos_los_productos(fuente)
+        except Exception as e:
+            print(f"  Error en {fuente}: {e}", file=sys.stderr)
+            continue
+        print(f"  {len(prods):3d} productos en {nombre_fuente(fuente)}")
+        cargadas.append(fuente)
+        if prods:
+            resultados[fuente] = prods
 
     estado = cargar_estado()
 
-    # Primera ejecución: guardar lo que hay sin avisar uno por uno
+    # 2) Primera ejecución: guardar todo sin avisar producto por producto
     if estado is None:
-        estado = {"productos": {}}
-        for url, p in actuales.items():
-            estado["productos"][url] = {**p, "visto_por_primera_vez": ahora, "activo": True}
+        estado = {"productos": {}, "fuentes": cargadas}
+        for fuente, prods in resultados.items():
+            for url, p in prods.items():
+                estado["productos"].setdefault(url, {**p, "fuente": fuente,
+                                                     "visto_por_primera_vez": ahora, "activo": True})
         guardar_estado(estado)
-        lista = "\n".join(f"• {html.escape(p['nombre'])}" for p in actuales.values())
+        detalle = "\n".join(f"• {html.escape(nombre_fuente(f))}: {len(pr)}" for f, pr in resultados.items())
         enviar_telegram(
-            f"✅ <b>Bot de ClubOferta activo</b>\nHay {len(actuales)} reacondicionados ahora:\n"
-            f"{lista}\n\nTe aviso cuando aparezca algo nuevo."
+            f"✅ <b>Bot de ClubOferta activo</b>\nHay {len(estado['productos'])} reacondicionados ahora:\n"
+            f"{detalle}\n\nTe aviso cuando aparezca algo nuevo."
         )
         return
 
-    # Si la página vino vacía puede ser un error temporal: no tocar el estado
-    if not actuales:
-        print("  La página no mostró productos; no se actualiza el estado.")
+    vistos = estado["productos"]
+    # Estados guardados por versiones anteriores solo vigilaban la página principal
+    fuentes = estado.setdefault("fuentes", [URL_PRINCIPAL])
+
+    # 3) Páginas recién agregadas: guardar sus productos actuales sin avisar
+    nuevas_fuentes = [f for f in cargadas if f not in fuentes]
+    for fuente in nuevas_fuentes:
+        for url, p in resultados.get(fuente, {}).items():
+            if url not in vistos:
+                vistos[url] = {**p, "fuente": fuente, "visto_por_primera_vez": ahora, "activo": True}
+        fuentes.append(fuente)
+
+    if not resultados:
+        print("  Ninguna página mostró productos; no se revisan cambios.")
+        guardar_estado(estado)
         return
 
-    vistos = estado["productos"]
+    # 4) Juntar todo y detectar nuevos / reaparecidos
+    union = {}
+    for prods in resultados.values():
+        for url, p in prods.items():
+            union.setdefault(url, p)
+
     nuevos, reaparecidos = [], []
-    for url, p in actuales.items():
+    for url, p in union.items():
         if url not in vistos:
             nuevos.append(formatear_producto(p, url))
-            vistos[url] = {**p, "visto_por_primera_vez": ahora, "activo": True}
+            fuente = next(f for f, pr in resultados.items() if url in pr)
+            vistos[url] = {**p, "fuente": fuente, "visto_por_primera_vez": ahora, "activo": True}
         else:
             if not vistos[url].get("activo", True):
                 reaparecidos.append(formatear_producto(p, url))
             vistos[url].update(p)
             vistos[url]["activo"] = True
 
-    for url in vistos:
-        if url not in actuales:
-            vistos[url]["activo"] = False
+    # 5) Marcar como agotados los que ya no aparecen (solo si su página cargó bien)
+    for url, info in vistos.items():
+        if url not in union and info.get("fuente", URL_PRINCIPAL) in resultados:
+            info["activo"] = False
 
+    # 6) Avisos
+    if nuevas_fuentes:
+        detalle = "\n".join(f"• {html.escape(nombre_fuente(f))}: {len(resultados.get(f, {}))} productos"
+                            for f in nuevas_fuentes)
+        enviar_telegram(f"👀 <b>Ahora también vigilo:</b>\n{detalle}\n\nTe aviso cuando aparezca algo nuevo ahí.")
     if nuevos:
         enviar_alertas("🆕 <b>Nuevo reacondicionado en ClubOferta</b>", nuevos)
     if reaparecidos:

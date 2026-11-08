@@ -19,7 +19,7 @@
       "precio": "$5.000",
       "precio_original": "$29.990",
       "visto_por_primera_vez": "2026-11-02T03:30:56+00:00",
-      "activo": true
+      "activo": false
     },
     "https://cluboferta.cl/producto/silla-escritorio-autonomous-full-2/": {
       "nombre": "REACONDICIONADO | Silla Escritorio Autonomous Full",
@@ -74,7 +74,7 @@
       "precio_original": "$119.990",
       "fuente": "https://cluboferta.cl/coleccion/reacondicionados-para-hogar/",
       "visto_por_primera_vez": "2026-11-02T04:00:05+00:00",
-      "activo": true
+      "activo": false
     },
     "https://cluboferta.cl/producto/reacondicionado-silla-sitial-chandigarh-madera-ratan-cafe/": {
       "nombre": "REACONDICIONADO | Silla Sitial Chandigarh Madera + Ratán Café",
@@ -98,7 +98,7 @@
       "precio_original": "$49.990",
       "fuente": "https://cluboferta.cl/coleccion/reacondicionados-para-hogar/",
       "visto_por_primera_vez": "2026-11-02T04:00:05+00:00",
-      "activo": true
+      "activo": false
     },
     "https://cluboferta.cl/producto/reacondicionado-trotadora-m40-6-km-h/": {
       "nombre": "REACONDICIONADO | Trotadora M40 6 km/h",

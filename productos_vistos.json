@@ -66,7 +66,7 @@
       "precio_original": "$124.990",
       "fuente": "https://cluboferta.cl/coleccion/reacondicionados-para-hogar/",
       "visto_por_primera_vez": "2026-11-02T04:00:05+00:00",
-      "activo": true
+      "activo": false
     },
     "https://cluboferta.cl/producto/reacondicionado-silla-selma-madera-asiento-y-respaldo-tapizados/": {
       "nombre": "REACONDICIONADO | Silla Selma Madera + Asiento y Respaldo Tapi...",
@@ -170,7 +170,7 @@
       "precio_original": "$739.990",
       "fuente": "https://cluboferta.cl/cajas-danadas-cluboferta/",
       "visto_por_primera_vez": "2026-11-05T01:18:27+00:00",
-      "activo": true
+      "activo": false
     },
     "https://cluboferta.cl/producto/mesa-redonda-infantil-rojo-precio-remate-packaging-danado/": {
       "nombre": "Mesa Redonda Infantil Rojo – Precio Remate + Packaging D...",
@@ -234,7 +234,7 @@
       "precio_original": "$199.990",
       "fuente": "https://cluboferta.cl/cajas-danadas-cluboferta/",
       "visto_por_primera_vez": "2026-11-05T01:18:27+00:00",
-      "activo": true
+      "activo": false
     },
     "https://cluboferta.cl/producto/silla-gamer-play-fun-ergonomica-para-escritorio-precio-remate-packaging-danado/": {
       "nombre": "Silla Gamer Play Fun Ergonómica – Precio Remate + Packag...",
@@ -306,7 +306,7 @@
       "precio_original": "$504.990",
       "fuente": "https://cluboferta.cl/cajas-danadas-cluboferta/",
       "visto_por_primera_vez": "2026-11-05T01:18:27+00:00",
-      "activo": true
+      "activo": false
     },
     "https://cluboferta.cl/producto/trotadora-x50-lite-10-km-h-1-0-hp-precio-remate-packaging-danado/": {
       "nombre": "Trotadora X50 Lite 10 km/h 1.0 HP – Precio Remate + Pack...",
@@ -315,6 +315,22 @@
       "fuente": "https://cluboferta.cl/cajas-danadas-cluboferta/",
       "visto_por_primera_vez": "2026-11-05T01:18:27+00:00",
       "activo": false
+    },
+    "https://cluboferta.cl/producto/home-gym-multifuncional-tf-7000a-negro-precio-remate-packaging-danado/": {
+      "nombre": "Home Gym Multifuncional TF-7000A Negro – Precio Remate +...",
+      "precio": "$54.000",
+      "precio_original": "$439.990",
+      "fuente": "https://cluboferta.cl/cajas-danadas-cluboferta/",
+      "visto_por_primera_vez": "2026-11-11T14:39:30+00:00",
+      "activo": true
+    },
+    "https://cluboferta.cl/producto/press-banca-multifuncion-f4000-azul-precio-remate-packaging-danado/": {
+      "nombre": "Press Banca Multifunción F4000 Azul – Precio Remate + Pa...",
+      "precio": "$35.000",
+      "precio_original": "$174.990",
+      "fuente": "https://cluboferta.cl/cajas-danadas-cluboferta/",
+      "visto_por_primera_vez": "2026-11-11T14:39:30+00:00",
+      "activo": true
     }
   },
   "fuentes": [

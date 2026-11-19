@@ -331,6 +331,30 @@
       "fuente": "https://cluboferta.cl/cajas-danadas-cluboferta/",
       "visto_por_primera_vez": "2026-11-11T14:39:30+00:00",
       "activo": false
+    },
+    "https://cluboferta.cl/producto/estante-zapatero-organizador-116x60x24-cm-precio-remate-packaging-danado/": {
+      "nombre": "Estante Zapatero Organizador 116X60X24 Cm – Precio Remat...",
+      "precio": "$13.000",
+      "precio_original": "$74.990",
+      "fuente": "https://cluboferta.cl/cajas-danadas-cluboferta/",
+      "visto_por_primera_vez": "2026-11-19T13:56:58+00:00",
+      "activo": true
+    },
+    "https://cluboferta.cl/producto/pack-2-silla-comedor-sitial-alessandro-precio-remate-packaging-danado/": {
+      "nombre": "Pack 2 Silla Comedor Sitial Alessandro – Precio Remate ...",
+      "precio": "$40.000",
+      "precio_original": "$229.990",
+      "fuente": "https://cluboferta.cl/cajas-danadas-cluboferta/",
+      "visto_por_primera_vez": "2026-11-19T13:56:58+00:00",
+      "activo": true
+    },
+    "https://cluboferta.cl/producto/pack-6-silla-de-comedor-boston-ii-negro-precio-remate-packaging-danado/": {
+      "nombre": "Pack 6 Silla de Comedor Boston II Negro – Precio Remat...",
+      "precio": "$46.000",
+      "precio_original": "$229.990",
+      "fuente": "https://cluboferta.cl/cajas-danadas-cluboferta/",
+      "visto_por_primera_vez": "2026-11-19T13:56:58+00:00",
+      "activo": true
     }
   },
   "fuentes": [

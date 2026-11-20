@@ -30,7 +30,7 @@
     },
     "https://cluboferta.cl/producto/reacondicionado-mesa-comedor-nordic-75x80x140-cm/": {
       "nombre": "REACONDICIONADO | Mesa Comedor Nordic 75x80x140 cm",
-      "precio": "$76.000",
+      "precio": "$65.000",
       "precio_original": "$299.990",
       "fuente": "https://cluboferta.cl/coleccion/reacondicionados-para-hogar/",
       "visto_por_primera_vez": "2026-11-02T04:00:05+00:00",
@@ -38,7 +38,7 @@
     },
     "https://cluboferta.cl/producto/reacondicionado-piso-bar-o-cocina-mid-century-con-respaldo-marron/": {
       "nombre": "REACONDICIONADO | Piso Bar o Cocina Mid-Century con Respaldo M...",
-      "precio": "$16.000",
+      "precio": "$13.000",
       "precio_original": "$199.990",
       "fuente": "https://cluboferta.cl/coleccion/reacondicionados-para-hogar/",
       "visto_por_primera_vez": "2026-11-02T04:00:05+00:00",
@@ -46,7 +46,7 @@
     },
     "https://cluboferta.cl/producto/reacondicionado-silla-comedor-lina-acolchada/": {
       "nombre": "REACONDICIONADO | Silla Comedor Lina Acolchada",
-      "precio": "$11.000",
+      "precio": "$13.000",
       "precio_original": "$74.990",
       "fuente": "https://cluboferta.cl/coleccion/reacondicionados-para-hogar/",
       "visto_por_primera_vez": "2026-11-02T04:00:05+00:00",
@@ -54,7 +54,7 @@
     },
     "https://cluboferta.cl/producto/reacondicionado-silla-comedor-sitial-charlton-terry-gris/": {
       "nombre": "REACONDICIONADO | Silla Comedor Sitial Charlton Terry – ...",
-      "precio": "$14.000",
+      "precio": "$12.000",
       "precio_original": "$69.990",
       "fuente": "https://cluboferta.cl/coleccion/reacondicionados-para-hogar/",
       "visto_por_primera_vez": "2026-11-02T04:00:05+00:00",
@@ -86,7 +86,7 @@
     },
     "https://cluboferta.cl/producto/reacondicionado-silla-sitial-chandigarh-madera-ratan-negro/": {
       "nombre": "REACONDICIONADO | Silla Sitial Chandigarh Madera- Ratán Negro",
-      "precio": "$27.000",
+      "precio": "$20.000",
       "precio_original": "$249.990",
       "fuente": "https://cluboferta.cl/coleccion/reacondicionados-para-hogar/",
       "visto_por_primera_vez": "2026-11-02T04:00:05+00:00",
@@ -386,6 +386,38 @@
       "precio_original": "$1.749.990",
       "fuente": "https://cluboferta.cl/coleccion/reacondicionados-para-deporte/",
       "visto_por_primera_vez": "2026-11-20T15:42:05+00:00",
+      "activo": true
+    },
+    "https://cluboferta.cl/producto/bicicleta-spinning-home-tecnologia-pro-fitness-2/": {
+      "nombre": "REACONDICIONADO | Bicicleta Spinning Home Tecnología Pro Fitness.",
+      "precio": "$96.000",
+      "precio_original": "$129.990",
+      "fuente": "https://cluboferta.cl/categoria-reacondicionados/",
+      "visto_por_primera_vez": "2026-11-20T18:37:24+00:00",
+      "activo": true
+    },
+    "https://cluboferta.cl/producto/piso-de-bar-tolix-con-asiento-de-madera-negro/": {
+      "nombre": "REACONDICIONADO | Piso de Bar Tolix con Asiento de Madera negro.",
+      "precio": "$9.000",
+      "precio_original": "$29.990",
+      "fuente": "https://cluboferta.cl/categoria-reacondicionados/",
+      "visto_por_primera_vez": "2026-11-20T18:37:24+00:00",
+      "activo": true
+    },
+    "https://cluboferta.cl/producto/reacondicionado-futon-foster-cafe-76-x-167-x-80-cm/": {
+      "nombre": "REACONDICIONADO | Futón Foster Café 76 x 167 x 80 cm",
+      "precio": "$37.000",
+      "precio_original": "$249.990",
+      "fuente": "https://cluboferta.cl/coleccion/reacondicionados-para-hogar/",
+      "visto_por_primera_vez": "2026-11-20T18:37:24+00:00",
+      "activo": true
+    },
+    "https://cluboferta.cl/producto/reacondicionado-silla-comedor-breton/": {
+      "nombre": "REACONDICIONADO | Silla Comedor Breton",
+      "precio": "$17.000",
+      "precio_original": "$59.990",
+      "fuente": "https://cluboferta.cl/coleccion/reacondicionados-para-hogar/",
+      "visto_por_primera_vez": "2026-11-20T18:37:24+00:00",
       "activo": true
     }
   },

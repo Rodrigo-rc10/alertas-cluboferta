@@ -26,7 +26,7 @@
       "precio": "$24.000",
       "precio_original": "$79.990",
       "visto_por_primera_vez": "2026-11-02T03:30:56+00:00",
-      "activo": true
+      "activo": false
     },
     "https://cluboferta.cl/producto/reacondicionado-mesa-comedor-nordic-75x80x140-cm/": {
       "nombre": "REACONDICIONADO | Mesa Comedor Nordic 75x80x140 cm",
@@ -110,7 +110,7 @@
     },
     "https://cluboferta.cl/producto/reacondicionado-silla-plastica-terraza-restaurante-negra/": {
       "nombre": "REACONDICIONADO | Silla Plastica Terraza Restaurante Negra",
-      "precio": "$5.000",
+      "precio": "$4.000",
       "precio_original": "$24.990",
       "fuente": "https://cluboferta.cl/coleccion/reacondicionados-para-otros/",
       "visto_por_primera_vez": "2026-11-02T04:00:05+00:00",
@@ -282,7 +282,7 @@
       "precio_original": "$209.990",
       "fuente": "https://cluboferta.cl/cajas-danadas-cluboferta/",
       "visto_por_primera_vez": "2026-11-05T01:18:27+00:00",
-      "activo": true
+      "activo": false
     },
     "https://cluboferta.cl/producto/sitial-filippo-precio-remate-packaging-danado/": {
       "nombre": "Sitial Filippo – Precio Remate + Packaging Dañado",
@@ -334,7 +334,7 @@
     },
     "https://cluboferta.cl/producto/estante-zapatero-organizador-116x60x24-cm-precio-remate-packaging-danado/": {
       "nombre": "Estante Zapatero Organizador 116X60X24 Cm – Precio Remat...",
-      "precio": "$17.000",
+      "precio": "$13.000",
       "precio_original": "$74.990",
       "fuente": "https://cluboferta.cl/cajas-danadas-cluboferta/",
       "visto_por_primera_vez": "2026-11-19T13:56:58+00:00",
@@ -402,7 +402,7 @@
       "precio_original": "$29.990",
       "fuente": "https://cluboferta.cl/categoria-reacondicionados/",
       "visto_por_primera_vez": "2026-11-20T18:37:24+00:00",
-      "activo": true
+      "activo": false
     },
     "https://cluboferta.cl/producto/reacondicionado-futon-foster-cafe-76-x-167-x-80-cm/": {
       "nombre": "REACONDICIONADO | Futón Foster Café 76 x 167 x 80 cm",
@@ -410,7 +410,7 @@
       "precio_original": "$249.990",
       "fuente": "https://cluboferta.cl/coleccion/reacondicionados-para-hogar/",
       "visto_por_primera_vez": "2026-11-20T18:37:24+00:00",
-      "activo": true
+      "activo": false
     },
     "https://cluboferta.cl/producto/reacondicionado-silla-comedor-breton/": {
       "nombre": "REACONDICIONADO | Silla Comedor Breton",

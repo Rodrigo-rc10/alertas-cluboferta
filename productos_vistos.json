@@ -26,7 +26,7 @@
       "precio": "$24.000",
       "precio_original": "$79.990",
       "visto_por_primera_vez": "2026-11-02T03:30:56+00:00",
-      "activo": true
+      "activo": false
     },
     "https://cluboferta.cl/producto/reacondicionado-mesa-comedor-nordic-75x80x140-cm/": {
       "nombre": "REACONDICIONADO | Mesa Comedor Nordic 75x80x140 cm",
@@ -538,7 +538,7 @@
       "precio_original": "$148.990",
       "fuente": "https://cluboferta.cl/coleccion/reacondicionados-para-hogar/",
       "visto_por_primera_vez": "2026-11-24T19:37:36+00:00",
-      "activo": true
+      "activo": false
     },
     "https://cluboferta.cl/producto/sofa-cama-77x135x93-cm-beige-reacondicionado/": {
       "nombre": "REACONDICIONADO | Sofa Cama 77X135X93 Cm Beige – Reacond...",
@@ -546,7 +546,7 @@
       "precio_original": "$384.990",
       "fuente": "https://cluboferta.cl/coleccion/reacondicionados-para-hogar/",
       "visto_por_primera_vez": "2026-11-24T19:37:36+00:00",
-      "activo": true
+      "activo": false
     },
     "https://cluboferta.cl/producto/reacondicionado-silla-de-oficina-de-malla-con-reposa-brazos/": {
       "nombre": "REACONDICIONADO | Silla De Oficina De Malla Con Reposa Brazos",
@@ -554,6 +554,70 @@
       "precio_original": "$129.990",
       "fuente": "https://cluboferta.cl/coleccion/reacondicionados-para-otros/",
       "visto_por_primera_vez": "2026-11-24T19:37:36+00:00",
+      "activo": true
+    },
+    "https://cluboferta.cl/producto/piso-de-bar-modiano/": {
+      "nombre": "REACONDICIONADO | Piso de Bar Modiano",
+      "precio": "$18.000",
+      "precio_original": "$39.990",
+      "fuente": "https://cluboferta.cl/categoria-reacondicionados/",
+      "visto_por_primera_vez": "2026-11-24T21:27:41+00:00",
+      "activo": true
+    },
+    "https://cluboferta.cl/producto/piso-de-bar-tolix-con-asiento-de-madera-blanco/": {
+      "nombre": "REACONDICIONADO | Piso de Bar Tolix con Asiento de Madera Blanco.",
+      "precio": "$9.000",
+      "precio_original": "$19.990",
+      "fuente": "https://cluboferta.cl/categoria-reacondicionados/",
+      "visto_por_primera_vez": "2026-11-24T21:27:41+00:00",
+      "activo": true
+    },
+    "https://cluboferta.cl/producto/reposera-aluminio-plegable/": {
+      "nombre": "REACONDICIONADO | Reposera Aluminio Plegable",
+      "precio": "$24.000",
+      "precio_original": "$39.990",
+      "fuente": "https://cluboferta.cl/categoria-reacondicionados/",
+      "visto_por_primera_vez": "2026-11-24T21:27:41+00:00",
+      "activo": true
+    },
+    "https://cluboferta.cl/producto/silla-escritorio-precision-seating-2/": {
+      "nombre": "REACONDICIONADO | Silla Escritorio Precision Seating",
+      "precio": "$14.000",
+      "precio_original": "$54.990",
+      "fuente": "https://cluboferta.cl/categoria-reacondicionados/",
+      "visto_por_primera_vez": "2026-11-24T21:27:41+00:00",
+      "activo": true
+    },
+    "https://cluboferta.cl/producto/piso-de-bar-doncic-cafe-reacondicionado/": {
+      "nombre": "REACONDICIONADO | Piso de Bar Doncic Café – Reacondicionado",
+      "precio": "$18.000",
+      "precio_original": "$119.990",
+      "fuente": "https://cluboferta.cl/coleccion/reacondicionados-para-hogar/",
+      "visto_por_primera_vez": "2026-11-24T21:27:41+00:00",
+      "activo": true
+    },
+    "https://cluboferta.cl/producto/reacondicionado-silla-alta-bar-orlando-t-all-black/": {
+      "nombre": "REACONDICIONADO | Silla Alta Bar Orlando T – All Black",
+      "precio": "$9.000",
+      "precio_original": "$99.990",
+      "fuente": "https://cluboferta.cl/coleccion/reacondicionados-para-hogar/",
+      "visto_por_primera_vez": "2026-11-24T21:27:41+00:00",
+      "activo": true
+    },
+    "https://cluboferta.cl/producto/bicicleta-spinning-k100-verde-2/": {
+      "nombre": "REACONDICIONADO | Bicicleta Spinning Pro 400 turquesa Volante ...",
+      "precio": "$32.000",
+      "precio_original": "$79.990",
+      "fuente": "https://cluboferta.cl/coleccion/reacondicionados-para-deporte/",
+      "visto_por_primera_vez": "2026-11-24T21:27:41+00:00",
+      "activo": true
+    },
+    "https://cluboferta.cl/producto/reacondicionado-trotadora-m200-plus-12-km-h-15-hp/": {
+      "nombre": "REACONDICIONADO | Trotadora M200 Plus 12 km/h 1,5 HP",
+      "precio": "$63.000",
+      "precio_original": "$209.990",
+      "fuente": "https://cluboferta.cl/coleccion/reacondicionados-para-deporte/",
+      "visto_por_primera_vez": "2026-11-24T21:27:41+00:00",
       "activo": true
     }
   },

@@ -310,11 +310,11 @@
     },
     "https://cluboferta.cl/producto/trotadora-x50-lite-10-km-h-1-0-hp-precio-remate-packaging-danado/": {
       "nombre": "Trotadora X50 Lite 10 km/h 1.0 HP – Precio Remate + Pack...",
-      "precio": "$40.000",
+      "precio": "$54.000",
       "precio_original": "$199.990",
       "fuente": "https://cluboferta.cl/cajas-danadas-cluboferta/",
       "visto_por_primera_vez": "2026-11-05T01:18:27+00:00",
-      "activo": false
+      "activo": true
     },
     "https://cluboferta.cl/producto/home-gym-multifuncional-tf-7000a-negro-precio-remate-packaging-danado/": {
       "nombre": "Home Gym Multifuncional TF-7000A Negro – Precio Remate +...",
@@ -418,6 +418,54 @@
       "precio_original": "$59.990",
       "fuente": "https://cluboferta.cl/coleccion/reacondicionados-para-hogar/",
       "visto_por_primera_vez": "2026-11-20T18:37:24+00:00",
+      "activo": true
+    },
+    "https://cluboferta.cl/producto/berger-classic-convertible-negro-precio-remate-packaging-danado/": {
+      "nombre": "Berger Classic Convertible Negro Precio Remate + Packaging Dañado",
+      "precio": "$59.000",
+      "precio_original": "$246.990",
+      "fuente": "https://cluboferta.cl/cajas-danadas-cluboferta/",
+      "visto_por_primera_vez": "2026-11-24T14:42:38+00:00",
+      "activo": true
+    },
+    "https://cluboferta.cl/producto/home-gym-multifuncional-tf-3000-gris-precio-remate-packaging-danado/": {
+      "nombre": "HOME GYM 100 LB TF-3000 – Precio Remate + Packaging Dañado",
+      "precio": "$105.000",
+      "precio_original": "$389.990",
+      "fuente": "https://cluboferta.cl/cajas-danadas-cluboferta/",
+      "visto_por_primera_vez": "2026-11-24T14:42:38+00:00",
+      "activo": true
+    },
+    "https://cluboferta.cl/producto/home-gym-multifuncional-tf-7001-gris-precio-remate-packaging-danado/": {
+      "nombre": "Home Gym Multifuncional TF-7001 Gris – Precio Remate + P...",
+      "precio": "$120.000",
+      "precio_original": "$309.990",
+      "fuente": "https://cluboferta.cl/cajas-danadas-cluboferta/",
+      "visto_por_primera_vez": "2026-11-24T14:42:38+00:00",
+      "activo": true
+    },
+    "https://cluboferta.cl/producto/home-gym-tf-3000-45-kg-negro-precio-remate-packaging-danado/": {
+      "nombre": "Home Gym TF-3000 45 kg Negro – Precio Remate + Packaging...",
+      "precio": "$105.000",
+      "precio_original": "$294.990",
+      "fuente": "https://cluboferta.cl/cajas-danadas-cluboferta/",
+      "visto_por_primera_vez": "2026-11-24T14:42:38+00:00",
+      "activo": true
+    },
+    "https://cluboferta.cl/producto/sombrilla-quitasol-lateral-diametro-3-metros-beige-precio-remate-packaging-danado/": {
+      "nombre": "Sombrilla Quitasol Lateral Diámetro 3 Metros Beige Precio Rema...",
+      "precio": "$28.000",
+      "precio_original": "$116.990",
+      "fuente": "https://cluboferta.cl/cajas-danadas-cluboferta/",
+      "visto_por_primera_vez": "2026-11-24T14:42:38+00:00",
+      "activo": true
+    },
+    "https://cluboferta.cl/producto/trotadora-m201-12-km-h-15-hp-negra-precio-remate-packaging-danado/": {
+      "nombre": "Trotadora M201 12 km/h 1,5 HP Negra – Precio Remate + P...",
+      "precio": "$100.000",
+      "precio_original": "$309.990",
+      "fuente": "https://cluboferta.cl/cajas-danadas-cluboferta/",
+      "visto_por_primera_vez": "2026-11-24T14:42:38+00:00",
       "activo": true
     }
   },

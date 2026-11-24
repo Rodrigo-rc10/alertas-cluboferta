@@ -26,7 +26,7 @@
       "precio": "$24.000",
       "precio_original": "$79.990",
       "visto_por_primera_vez": "2026-11-02T03:30:56+00:00",
-      "activo": false
+      "activo": true
     },
     "https://cluboferta.cl/producto/reacondicionado-mesa-comedor-nordic-75x80x140-cm/": {
       "nombre": "REACONDICIONADO | Mesa Comedor Nordic 75x80x140 cm",
@@ -62,11 +62,11 @@
     },
     "https://cluboferta.cl/producto/reacondicionado-silla-de-comedor-wishbone-natural/": {
       "nombre": "REACONDICIONADO | Silla de Comedor Wishbone Natural",
-      "precio": "$25.000",
+      "precio": "$28.000",
       "precio_original": "$124.990",
       "fuente": "https://cluboferta.cl/coleccion/reacondicionados-para-hogar/",
       "visto_por_primera_vez": "2026-11-02T04:00:05+00:00",
-      "activo": false
+      "activo": true
     },
     "https://cluboferta.cl/producto/reacondicionado-silla-selma-madera-asiento-y-respaldo-tapizados/": {
       "nombre": "REACONDICIONADO | Silla Selma Madera + Asiento y Respaldo Tapi...",
@@ -402,7 +402,7 @@
       "precio_original": "$29.990",
       "fuente": "https://cluboferta.cl/categoria-reacondicionados/",
       "visto_por_primera_vez": "2026-11-20T18:37:24+00:00",
-      "activo": false
+      "activo": true
     },
     "https://cluboferta.cl/producto/reacondicionado-futon-foster-cafe-76-x-167-x-80-cm/": {
       "nombre": "REACONDICIONADO | Futón Foster Café 76 x 167 x 80 cm",
@@ -458,7 +458,7 @@
       "precio_original": "$116.990",
       "fuente": "https://cluboferta.cl/cajas-danadas-cluboferta/",
       "visto_por_primera_vez": "2026-11-24T14:42:38+00:00",
-      "activo": true
+      "activo": false
     },
     "https://cluboferta.cl/producto/trotadora-m201-12-km-h-15-hp-negra-precio-remate-packaging-danado/": {
       "nombre": "Trotadora M201 12 km/h 1,5 HP Negra – Precio Remate + P...",
@@ -466,6 +466,94 @@
       "precio_original": "$309.990",
       "fuente": "https://cluboferta.cl/cajas-danadas-cluboferta/",
       "visto_por_primera_vez": "2026-11-24T14:42:38+00:00",
+      "activo": true
+    },
+    "https://cluboferta.cl/producto/piso-de-bar-metal-tolix-2/": {
+      "nombre": "REACONDICIONADO | Piso De Bar Metal Tolix",
+      "precio": "$7.000",
+      "precio_original": "$19.990",
+      "fuente": "https://cluboferta.cl/categoria-reacondicionados/",
+      "visto_por_primera_vez": "2026-11-24T19:37:36+00:00",
+      "activo": true
+    },
+    "https://cluboferta.cl/producto/silla-comedor-karomi/": {
+      "nombre": "REACONDICIONADO | Silla comedor Karomi",
+      "precio": "$15.000",
+      "precio_original": "$39.990",
+      "fuente": "https://cluboferta.cl/categoria-reacondicionados/",
+      "visto_por_primera_vez": "2026-11-24T19:37:36+00:00",
+      "activo": true
+    },
+    "https://cluboferta.cl/producto/silla-de-oficina-cromwell-pu/": {
+      "nombre": "REACONDICIONADO | Silla De Oficina Cromwell Pu",
+      "precio": "$42.000",
+      "precio_original": "$59.990",
+      "fuente": "https://cluboferta.cl/categoria-reacondicionados/",
+      "visto_por_primera_vez": "2026-11-24T19:37:36+00:00",
+      "activo": true
+    },
+    "https://cluboferta.cl/producto/silla-tolix-vintage-con-asiento-de-madera-blanco/": {
+      "nombre": "REACONDICIONADO | Silla Tolix Vintage Con Asiento De Madera Bl...",
+      "precio": "$8.000",
+      "precio_original": "$29.990",
+      "fuente": "https://cluboferta.cl/categoria-reacondicionados/",
+      "visto_por_primera_vez": "2026-11-24T19:37:36+00:00",
+      "activo": true
+    },
+    "https://cluboferta.cl/producto/quitasol-buzios-reacondicionado/": {
+      "nombre": "REACONDICIONADO | Quitasol Buzios – Reacondicionado",
+      "precio": "$8.000",
+      "precio_original": "$69.990",
+      "fuente": "https://cluboferta.cl/coleccion/reacondicionados-para-hogar/",
+      "visto_por_primera_vez": "2026-11-24T19:37:36+00:00",
+      "activo": true
+    },
+    "https://cluboferta.cl/producto/reacondicionado-silla-comedor-medellin/": {
+      "nombre": "REACONDICIONADO | Silla Comedor Medellin",
+      "precio": "$11.000",
+      "precio_original": "$54.990",
+      "fuente": "https://cluboferta.cl/coleccion/reacondicionados-para-hogar/",
+      "visto_por_primera_vez": "2026-11-24T19:37:36+00:00",
+      "activo": true
+    },
+    "https://cluboferta.cl/producto/reacondicionado-silla-de-terraza-maceio/": {
+      "nombre": "REACONDICIONADO | Silla De Terraza Maceio",
+      "precio": "$6.000",
+      "precio_original": "$39.990",
+      "fuente": "https://cluboferta.cl/coleccion/reacondicionados-para-hogar/",
+      "visto_por_primera_vez": "2026-11-24T19:37:36+00:00",
+      "activo": true
+    },
+    "https://cluboferta.cl/producto/silla-terraza-plastica-giza-negra-reacondicionado/": {
+      "nombre": "REACONDICIONADO | Silla Terraza Plástica Giza Negra – Re...",
+      "precio": "$8.000",
+      "precio_original": "$39.990",
+      "fuente": "https://cluboferta.cl/coleccion/reacondicionados-para-hogar/",
+      "visto_por_primera_vez": "2026-11-24T19:37:36+00:00",
+      "activo": true
+    },
+    "https://cluboferta.cl/producto/sitial-new-kas-acolchado-con-apoyabrazos-beige-2/": {
+      "nombre": "REACONDICIONADO | Sitial New Kas Acolchado Con Apoyabrazos Beige",
+      "precio": "$27.000",
+      "precio_original": "$148.990",
+      "fuente": "https://cluboferta.cl/coleccion/reacondicionados-para-hogar/",
+      "visto_por_primera_vez": "2026-11-24T19:37:36+00:00",
+      "activo": true
+    },
+    "https://cluboferta.cl/producto/sofa-cama-77x135x93-cm-beige-reacondicionado/": {
+      "nombre": "REACONDICIONADO | Sofa Cama 77X135X93 Cm Beige – Reacond...",
+      "precio": "$103.000",
+      "precio_original": "$384.990",
+      "fuente": "https://cluboferta.cl/coleccion/reacondicionados-para-hogar/",
+      "visto_por_primera_vez": "2026-11-24T19:37:36+00:00",
+      "activo": true
+    },
+    "https://cluboferta.cl/producto/reacondicionado-silla-de-oficina-de-malla-con-reposa-brazos/": {
+      "nombre": "REACONDICIONADO | Silla De Oficina De Malla Con Reposa Brazos",
+      "precio": "$26.000",
+      "precio_original": "$129.990",
+      "fuente": "https://cluboferta.cl/coleccion/reacondicionados-para-otros/",
+      "visto_por_primera_vez": "2026-11-24T19:37:36+00:00",
       "activo": true
     }
   },

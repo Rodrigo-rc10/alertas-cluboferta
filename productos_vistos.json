@@ -498,7 +498,7 @@
       "precio_original": "$29.990",
       "fuente": "https://cluboferta.cl/categoria-reacondicionados/",
       "visto_por_primera_vez": "2026-11-24T19:37:36+00:00",
-      "activo": true
+      "activo": false
     },
     "https://cluboferta.cl/producto/quitasol-buzios-reacondicionado/": {
       "nombre": "REACONDICIONADO | Quitasol Buzios – Reacondicionado",
@@ -570,7 +570,7 @@
       "precio_original": "$19.990",
       "fuente": "https://cluboferta.cl/categoria-reacondicionados/",
       "visto_por_primera_vez": "2026-11-24T21:27:41+00:00",
-      "activo": true
+      "activo": false
     },
     "https://cluboferta.cl/producto/reposera-aluminio-plegable/": {
       "nombre": "REACONDICIONADO | Reposera Aluminio Plegable",
@@ -586,7 +586,7 @@
       "precio_original": "$54.990",
       "fuente": "https://cluboferta.cl/categoria-reacondicionados/",
       "visto_por_primera_vez": "2026-11-24T21:27:41+00:00",
-      "activo": true
+      "activo": false
     },
     "https://cluboferta.cl/producto/piso-de-bar-doncic-cafe-reacondicionado/": {
       "nombre": "REACONDICIONADO | Piso de Bar Doncic Café – Reacondicionado",
@@ -602,7 +602,7 @@
       "precio_original": "$99.990",
       "fuente": "https://cluboferta.cl/coleccion/reacondicionados-para-hogar/",
       "visto_por_primera_vez": "2026-11-24T21:27:41+00:00",
-      "activo": true
+      "activo": false
     },
     "https://cluboferta.cl/producto/bicicleta-spinning-k100-verde-2/": {
       "nombre": "REACONDICIONADO | Bicicleta Spinning Pro 400 turquesa Volante ...",
@@ -610,7 +610,7 @@
       "precio_original": "$79.990",
       "fuente": "https://cluboferta.cl/coleccion/reacondicionados-para-deporte/",
       "visto_por_primera_vez": "2026-11-24T21:27:41+00:00",
-      "activo": true
+      "activo": false
     },
     "https://cluboferta.cl/producto/reacondicionado-trotadora-m200-plus-12-km-h-15-hp/": {
       "nombre": "REACONDICIONADO | Trotadora M200 Plus 12 km/h 1,5 HP",
